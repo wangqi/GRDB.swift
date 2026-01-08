@@ -5,7 +5,9 @@
 //  Created by Fahad on 06/02/2022.
 //
 
+#if canImport(UIKit)
 import UIKit
+#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

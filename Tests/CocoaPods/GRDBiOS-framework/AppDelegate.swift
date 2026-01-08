@@ -1,5 +1,7 @@
 import GRDB
+#if canImport(UIKit)
 import UIKit
+#endif
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
